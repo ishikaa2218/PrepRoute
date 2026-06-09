@@ -1,0 +1,13 @@
+.question-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.question-content {
+  padding: 24px;
+  overflow-y: auto;
+}
+
+.question-main {
+  flex: 1;
+}

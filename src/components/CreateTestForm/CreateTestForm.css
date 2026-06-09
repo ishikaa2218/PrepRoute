@@ -1,0 +1,146 @@
+.test-form-container {
+  padding: 28px 24px;
+  background-color: white;
+}
+
+.breadcrumb-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  color: #6b7280;
+  margin-bottom: 30px;
+}
+
+.tab-wrapper {
+  display: inline-flex;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 35px;
+}
+
+.tab-wrapper button {
+  border: none;
+  background: white;
+  width: 120px;
+  height: 48px;
+  color: #9ca3af;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.active-tab {
+  background: #f5f7ff !important;
+  color: #4f67ff !important;
+  font-weight: 500;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-size: 15px;
+  font-weight: 500;
+  color: #374151;
+  margin-bottom: 10px;
+}
+
+.custom-input {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #d9dee8;
+  border-radius: 8px;
+  padding: 0 16px;
+  font-size: 14px;
+  outline: none;
+}
+
+.custom-input::placeholder {
+  color: #c4c9d4;
+}
+
+.custom-input:focus {
+  border-color: #6f84ff;
+}
+
+.difficulty-options {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.radio-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+}
+
+.radio-item input {
+  accent-color: #6f84ff;
+  width: 18px;
+  height: 18px;
+}
+
+.marking-section {
+  margin-top: 35px;
+}
+
+.marking-heading {
+  margin-bottom: 25px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.disabled-label {
+  color: #c6cad5 !important;
+}
+
+.custom-input:disabled {
+  background: white;
+  cursor: not-allowed;
+}
+
+.footer-btns {
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+  margin-top: 50px;
+}
+
+.cancel-btn {
+  width: 120px;
+  height: 48px;
+  border: none;
+  background: #f5f6fb;
+  color: #4f67ff;
+  border-radius: 8px;
+}
+
+.next-btn {
+  width: 120px;
+  height: 48px;
+  border: none;
+  background: #6f84ff;
+  color: white;
+  border-radius: 8px;
+}
+
+.multi-select {
+  height: 120px !important;
+  padding: 10px;
+}
+
+.multi-select option {
+  padding: 8px;
+}
+
+@media (max-width: 991px) {
+  .difficulty-options {
+    flex-direction: column;
+    gap: 15px;
+  }
+}

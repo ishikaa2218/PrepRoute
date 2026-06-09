@@ -1,0 +1,26 @@
+.dashboard-page {
+  padding: 30px;
+}
+
+.dashboard-title {
+  margin-bottom: 25px;
+}
+
+.dashboard-title h2 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.dashboard-title p {
+  color: #8b8b8b;
+}
+
+.stats-grid {
+  display:grid;
+  grid-template-columns:
+  repeat(4,1fr);
+
+  gap:20px;
+
+  margin-bottom:30px;
+}

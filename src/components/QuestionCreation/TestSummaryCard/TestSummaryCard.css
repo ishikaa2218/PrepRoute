@@ -1,0 +1,139 @@
+.summary-card {
+  background: white;
+  border: 1px solid #e7eaf3;
+
+  border-radius: 10px;
+
+  padding: 18px 22px;
+}
+
+/* Top */
+
+.card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 20px;
+}
+
+.test-type {
+  background: #071152;
+
+  color: white;
+
+  padding: 5px 12px;
+
+  border-radius: 20px;
+
+  font-size: 12px;
+}
+
+.edit-btn {
+  border: none;
+  background: transparent;
+
+  color: #6f84ff;
+}
+
+/* Chapter */
+
+.chapter-row {
+  margin-bottom: 24px;
+}
+
+.chapter-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.chapter-left h5 {
+  margin: 0;
+
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.difficulty {
+  background: #33c7a5;
+
+  color: white;
+
+  font-size: 12px;
+
+  border-radius: 20px;
+
+  padding: 4px 14px;
+}
+
+/* Details */
+
+.details-grid {
+  display: flex;
+  flex-direction: column;
+
+  gap: 18px;
+}
+
+.detail-row {
+  display: flex;
+  align-items: center;
+}
+
+.detail-label {
+  width: 90px;
+
+  color: #8a94a6;
+
+  font-size: 14px;
+}
+
+.colon {
+  margin-right: 14px;
+
+  color: #8a94a6;
+}
+
+.tags {
+  display: flex;
+  gap: 8px;
+}
+
+.tags span {
+  border: 1px solid #f5be3d;
+
+  color: #f5be3d;
+
+  font-size: 12px;
+
+  padding: 4px 10px;
+
+  border-radius: 8px;
+}
+
+/* Footer */
+
+.summary-footer {
+  display: flex;
+  justify-content: flex-end;
+
+  gap: 10px;
+
+  margin-top: 24px;
+}
+
+.footer-pill {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+
+  border: 1px solid #e5e7eb;
+
+  padding: 7px 12px;
+
+  border-radius: 8px;
+
+  font-size: 13px;
+  color: #6b7280;
+}

@@ -1,0 +1,30 @@
+.editor-wrapper{
+  border:1px solid #dbe2f0;
+  border-radius:12px;
+  overflow:hidden;
+  background:#fff;
+}
+
+.toolbar{
+  display:flex;
+  gap:8px;
+  padding:10px;
+  border-bottom:1px solid #e5e7eb;
+}
+
+.toolbar button{
+  border:none;
+  background:none;
+  cursor:pointer;
+}
+
+.ProseMirror{
+  min-height:220px;
+  padding:16px;
+  outline:none;
+}
+
+.ProseMirror img{
+  max-width:100%;
+  border-radius:8px;
+}

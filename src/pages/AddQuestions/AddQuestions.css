@@ -1,0 +1,40 @@
+.question-page {
+  padding: 24px;
+}
+
+.question-layout {
+  display: flex;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.page-top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 22px;
+}
+
+.breadcrumb {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.breadcrumb span {
+  margin: 0 10px;
+}
+
+.publish-btn {
+  width: 160px;
+  height: 48px;
+
+  border: none;
+  border-radius: 8px;
+
+  background: #6f84ff;
+  color: white;
+
+  font-size: 14px;
+  font-weight: 500;
+}
